@@ -1,1 +1,1101 @@
-<style>@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Bebas+Neue&display=swap');*{margin:0;padding:0;box-sizing:border-box}:root{--orange:#FF6B00;--orange2:#FF8C00;--dark:#0A0A0A;--dark2:#111111;--dark3:#1A1A1A;--dark4:#222222;--white:#FFFFFF;--gray:#888888;--lightgray:#f5f5f5}html{scroll-behavior:smooth}body{font-family:'Inter',sans-serif;background:var(--dark);color:var(--white);overflow-x:hidden}a{text-decoration:none;color:inherit}.container{max-width:1200px;margin:0 auto;padding:0 24px}nav{position:fixed;top:0;left:0;right:0;z-index:999;padding:16px 0;background:rgba(10,10,10,0.95);backdrop-filter:blur(20px);border-bottom:1px solid rgba(255,107,0,0.15)}.nav-inner{display:flex;align-items:center;justify-content:space-between}.logo{display:flex;align-items:center;gap:10px}.logo-icon{width:40px;height:40px;background:var(--orange);border-radius:8px;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:18px;color:#fff}.logo-text{font-size:20px;font-weight:800;letter-spacing:1px}.logo-text span{color:var(--orange)}.nav-links{display:flex;gap:32px;list-style:none}.nav-links a{font-size:14px;font-weight:500;color:#bbb;transition:color 0.3s}.nav-links a:hover{color:var(--orange)}.nav-cta{background:var(--orange);color:#fff;padding:10px 22px;border-radius:6px;font-weight:600;font-size:14px;transition:all 0.3s;white-space:nowrap}.nav-cta:hover{background:var(--orange2);transform:translateY(-1px)}.hero{min-height:100vh;position:relative;display:flex;align-items:center;overflow:hidden;padding-top:80px}.hero-bg{position:absolute;inset:0;background:url('https://drive.google.com/thumbnail?id=1uL3LlOqOnLMLi8zgj8Or2eUdvJ9JzQCb&sz=w1600') center/cover no-repeat;opacity:0.25}.hero-overlay{position:absolute;inset:0;background:linear-gradient(135deg,rgba(10,10,10,0.97) 0%,rgba(10,10,10,0.7) 60%,rgba(255,107,0,0.08) 100%)}.hero-content{position:relative;z-index:2;display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}.hero-badge{display:inline-flex;align-items:center;gap:8px;background:rgba(255,107,0,0.15);border:1px solid rgba(255,107,0,0.4);padding:6px 14px;border-radius:20px;font-size:12px;font-weight:600;color:var(--orange);margin-bottom:20px;letter-spacing:1px}.hero-badge::before{content:'';width:8px;height:8px;background:var(--orange);border-radius:50%;animation:pulse 1.5s infinite}.hero h1{font-family:'Bebas Neue',sans-serif;font-size:clamp(52px,7vw,90px);line-height:0.95;margin-bottom:24px;letter-spacing:2px}.hero h1 span{color:var(--orange)}.hero p{font-size:17px;color:#aaa;line-height:1.7;margin-bottom:36px;max-width:500px}.hero-btns{display:flex;gap:16px;flex-wrap:wrap}.btn-primary{background:var(--orange);color:#fff;padding:14px 32px;border-radius:8px;font-weight:700;font-size:15px;transition:all 0.3s;display:inline-flex;align-items:center;gap:8px}.btn-primary:hover{background:var(--orange2);transform:translateY(-2px);box-shadow:0 12px 40px rgba(255,107,0,0.4)}.btn-secondary{border:2px solid rgba(255,107,0,0.5);color:#fff;padding:14px 32px;border-radius:8px;font-weight:600;font-size:15px;transition:all 0.3s}.btn-secondary:hover{border-color:var(--orange);background:rgba(255,107,0,0.1)}.hero-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:48px}.stat-card{background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);border-radius:12px;padding:20px;text-align:center}.stat-num{font-size:28px;font-weight:800;color:var(--orange)}.stat-label{font-size:12px;color:#888;margin-top:4px}.hero-img-side{position:relative}.hero-product-img{width:100%;border-radius:20px;overflow:hidden;position:relative}.hero-product-img img{width:100%;height:500px;object-fit:cover;border-radius:20px}.hero-float-card{position:absolute;bottom:-20px;left:-20px;background:var(--dark3);border:1px solid rgba(255,107,0,0.3);border-radius:12px;padding:16px 20px;display:flex;align-items:center;gap:12px}.hero-float-card .icon{width:40px;height:40px;background:var(--orange);border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:20px}.hero-float-card .info .num{font-size:20px;font-weight:800}.hero-float-card .info .label{font-size:11px;color:#888}@keyframes pulse{0%,100%{opacity:1}50%{opacity:0.3}}.marquee-section{background:var(--orange);padding:14px 0;overflow:hidden}.marquee-track{display:flex;gap:48px;animation:marquee 25s linear infinite;white-space:nowrap}.marquee-item{display:flex;align-items:center;gap:10px;font-size:13px;font-weight:700;color:#fff;letter-spacing:1px;text-transform:uppercase}.marquee-dot{width:6px;height:6px;background:rgba(255,255,255,0.6);border-radius:50%}@keyframes marquee{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}.section{padding:96px 0}.section-label{font-size:12px;font-weight:700;color:var(--orange);letter-spacing:3px;text-transform:uppercase;margin-bottom:12px}.section-title{font-family:'Bebas Neue',sans-serif;font-size:clamp(36px,5vw,58px);line-height:1.05;margin-bottom:16px}.section-title span{color:var(--orange)}.section-sub{font-size:16px;color:#888;max-width:560px;line-height:1.7}.section-header{text-align:center;margin-bottom:64px}.products-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}@media(max-width:900px){.products-grid{grid-template-columns:repeat(2,1fr)}}.product-card{background:var(--dark3);border:1px solid rgba(255,255,255,0.07);border-radius:16px;overflow:hidden;transition:all 0.35s;position:relative}.product-card:hover{transform:translateY(-6px);border-color:rgba(255,107,0,0.4);box-shadow:0 20px 60px rgba(255,107,0,0.12)}.product-img{width:100%;height:220px;object-fit:cover;display:block;transition:transform 0.4s}.product-card:hover .product-img{transform:scale(1.05)}.product-info{padding:20px}.product-cat{font-size:11px;color:var(--orange);font-weight:700;letter-spacing:2px;text-transform:uppercase;margin-bottom:8px}.product-name{font-size:18px;font-weight:700;margin-bottom:8px}.product-desc{font-size:13px;color:#888;line-height:1.6;margin-bottom:16px}.product-meta{display:flex;align-items:center;justify-content:space-between}.product-price{font-size:20px;font-weight:800;color:var(--orange)}.product-price span{font-size:12px;color:#888;font-weight:400}.product-badge{background:rgba(255,107,0,0.15);color:var(--orange);font-size:11px;font-weight:600;padding:4px 10px;border-radius:20px}.bg-dark2{background:var(--dark2)}.bg-white{background:#fff;color:#111}.features-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}@media(max-width:900px){.features-grid{grid-template-columns:repeat(2,1fr)}}.feature-card{background:var(--dark3);border:1px solid rgba(255,255,255,0.07);border-radius:16px;padding:28px;transition:all 0.3s}.feature-card:hover{border-color:rgba(255,107,0,0.35);transform:translateY(-4px)}.feature-icon{width:52px;height:52px;background:rgba(255,107,0,0.12);border:1px solid rgba(255,107,0,0.25);border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:24px;margin-bottom:18px}.feature-title{font-size:16px;font-weight:700;margin-bottom:8px}.feature-desc{font-size:13px;color:#888;line-height:1.6}.why-grid{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}.why-list{display:flex;flex-direction:column;gap:20px}.why-item{display:flex;gap:16px;align-items:flex-start;padding:20px;background:var(--dark3);border:1px solid rgba(255,255,255,0.06);border-radius:12px;transition:all 0.3s}.why-item:hover{border-color:rgba(255,107,0,0.3)}.why-num{font-family:'Bebas Neue',sans-serif;font-size:32px;color:var(--orange);line-height:1;min-width:40px}.why-text h4{font-size:15px;font-weight:700;margin-bottom:4px}.why-text p{font-size:13px;color:#888;line-height:1.6}.why-img{border-radius:20px;overflow:hidden;position:relative}.why-img img{width:100%;height:500px;object-fit:cover;border-radius:20px}.cta-section{background:var(--orange);padding:80px 0;text-align:center}.cta-section h2{font-family:'Bebas Neue',sans-serif;font-size:clamp(40px,5vw,64px);color:#fff;margin-bottom:16px;letter-spacing:2px}.cta-section p{font-size:17px;color:rgba(255,255,255,0.85);margin-bottom:40px}.cta-btns{display:flex;gap:16px;justify-content:center;flex-wrap:wrap}.btn-white{background:#fff;color:var(--orange);padding:14px 32px;border-radius:8px;font-weight:700;font-size:15px;transition:all 0.3s}.btn-white:hover{transform:translateY(-2px);box-shadow:0 12px 40px rgba(0,0,0,0.2)}.btn-outline-white{border:2px solid rgba(255,255,255,0.7);color:#fff;padding:14px 32px;border-radius:8px;font-weight:600;font-size:15px;transition:all 0.3s}.btn-outline-white:hover{background:rgba(255,255,255,0.15)}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}.about-img-wrap{position:relative}.about-img-wrap img{width:100%;height:480px;object-fit:cover;border-radius:20px}.about-stats-overlay{position:absolute;bottom:20px;right:-20px;background:var(--dark);border:1px solid rgba(255,107,0,0.3);border-radius:12px;padding:20px 28px;display:grid;grid-template-columns:1fr 1fr;gap:16px}.about-stat .num{font-size:24px;font-weight:800;color:var(--orange)}.about-stat .lbl{font-size:11px;color:#888}.about-content .section-sub{margin-bottom:28px}.about-tags{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:32px}.tag{background:rgba(255,107,0,0.1);border:1px solid rgba(255,107,0,0.25);color:var(--orange);padding:6px 14px;border-radius:20px;font-size:12px;font-weight:600}.contact-section{background:var(--dark2);padding:96px 0}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:64px}.contact-info h3{font-size:24px;font-weight:700;margin-bottom:20px}.contact-detail{display:flex;gap:14px;align-items:flex-start;margin-bottom:24px}.contact-icon{width:44px;height:44px;background:rgba(255,107,0,0.12);border:1px solid rgba(255,107,0,0.25);border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:18px;flex-shrink:0}.contact-text .label{font-size:11px;color:#888;font-weight:600;letter-spacing:1px;text-transform:uppercase}.contact-text .value{font-size:15px;font-weight:600;margin-top:2px}.contact-form{background:var(--dark3);border:1px solid rgba(255,255,255,0.07);border-radius:16px;padding:36px}.form-group{margin-bottom:20px}.form-group label{font-size:13px;font-weight:600;color:#bbb;display:block;margin-bottom:8px}.form-group input,.form-group select,.form-group textarea{width:100%;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);border-radius:8px;padding:12px 16px;color:#fff;font-size:14px;font-family:inherit;outline:none;transition:border 0.3s}.form-group input:focus,.form-group select:focus,.form-group textarea:focus{border-color:var(--orange)}.form-group select option{background:var(--dark3);color:#fff}.form-group textarea{resize:vertical;min-height:110px}.form-row{display:grid;grid-template-columns:1fr 1fr;gap:16px}footer{background:var(--dark);border-top:1px solid rgba(255,255,255,0.06);padding:48px 0 24px}.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:40px;margin-bottom:48px}.footer-brand .logo{margin-bottom:16px}.footer-brand p{font-size:13px;color:#666;line-height:1.7;max-width:260px}.footer-col h4{font-size:13px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#fff;margin-bottom:16px}.footer-col ul{list-style:none;display:flex;flex-direction:column;gap:10px}.footer-col ul li a{font-size:13px;color:#666;transition:color 0.3s}.footer-col ul li a:hover{color:var(--orange)}.footer-bottom{display:flex;justify-content:space-between;align-items:center;border-top:1px solid rgba(255,255,255,0.06);padding-top:24px}.footer-bottom p{font-size:12px;color:#555}.wa-btn{position:fixed;bottom:28px;right:28px;background:#25D366;color:#fff;width:56px;height:56px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:26px;box-shadow:0 8px 32px rgba(37,211,102,0.4);z-index:1000;transition:all 0.3s;text-decoration:none}.wa-btn:hover{transform:scale(1.1);box-shadow:0 12px 40px rgba(37,211,102,0.6)}</style><nav><div class="container"><div class="nav-inner"><a href="#" class="logo"><div class="logo-icon">E</div><div class="logo-text">ELEC<span>STRIX</span></div></a><ul class="nav-links"><li><a href="#products">Products</a></li><li><a href="#why">Why Us</a></li><li><a href="#about">About</a></li><li><a href="#contact">Contact</a></li></ul><a href="tel:+918826257541" class="nav-cta">&#128222; Call Now</a></div></div></nav><section class="hero"><div class="hero-bg"></div><div class="hero-overlay"></div><div class="container"><div class="hero-content"><div class="hero-left"><div class="hero-badge">Bihar's #1 Wholesale Electrical Supplier</div><h1>POWER YOUR<br><span>BUSINESS</span><br>WITH ELECSTRIX</h1><p>Premium wholesale electrical products — LED Bulbs, Switches, Sockets, Holders, Plug Tops and more. Direct supply to retailers, electricians & contractors across Bihar at unbeatable wholesale rates.</p><div class="hero-btns"><a href="#products" class="btn-primary">&#9889; See Products</a><a href="https://wa.me/918826257541" class="btn-secondary" target="_blank">WhatsApp Order</a></div><div class="hero-stats"><div class="stat-card"><div class="stat-num">500+</div><div class="stat-label">Products</div></div><div class="stat-card"><div class="stat-num">50+</div><div class="stat-label">Retailers</div></div><div class="stat-card"><div class="stat-num">2025</div><div class="stat-label">Est. Pupri, Bihar</div></div></div></div><div class="hero-img-side"><div class="hero-product-img"><img src="https://drive.google.com/thumbnail?id=1EJXafZkPvfryz18vEyk-JwmF_Wuu1nQ9&sz=w800" alt="Elecstrix Products"></div><div class="hero-float-card"><div class="icon">&#9889;</div><div class="info"><div class="num">18-22%</div><div class="label">Retailer Margin</div></div></div></div></div></div></section><div class="marquee-section"><div class="marquee-track"><div class="marquee-item"><span class="marquee-dot"></span>LED Bulbs 9W-70W</div><div class="marquee-item"><span class="marquee-dot"></span>Modular Switches</div><div class="marquee-item"><span class="marquee-dot"></span>5-Pin Sockets</div><div class="marquee-item"><span class="marquee-dot"></span>Batten Holders</div><div class="marquee-item"><span class="marquee-dot"></span>Plug Tops</div><div class="marquee-item"><span class="marquee-dot"></span>Multi-Plugs</div><div class="marquee-item"><span class="marquee-dot"></span>AC-DC Inverter Bulbs</div><div class="marquee-item"><span class="marquee-dot"></span>Fuses & Wires</div><div class="marquee-item"><span class="marquee-dot"></span>Wholesale Rates Direct</div><div class="marquee-item"><span class="marquee-dot"></span>LED Bulbs 9W-70W</div><div class="marquee-item"><span class="marquee-dot"></span>Modular Switches</div><div class="marquee-item"><span class="marquee-dot"></span>5-Pin Sockets</div><div class="marquee-item"><span class="marquee-dot"></span>Batten Holders</div><div class="marquee-item"><span class="marquee-dot"></span>Plug Tops</div><div class="marquee-item"><span class="marquee-dot"></span>Multi-Plugs</div><div class="marquee-item"><span class="marquee-dot"></span>Wholesale Rates Direct</div></div></div><section class="section bg-dark2" id="products"><div class="container"><div class="section-header"><div class="section-label">Our Products</div><h2 class="section-title">WHOLESALE <span>PRODUCT RANGE</span></h2><p class="section-sub">Fast-moving electrical products at best wholesale rates — direct supply, 1-2 year warranty, reliable quality for your shop.</p></div><div class="products-grid"><div class="product-card"><img class="product-img" src="https://drive.google.com/thumbnail?id=1LVmEB2xirdPI6owiHQW6R7pincJuk9fm&sz=w600" alt="LED Bulbs"><div class="product-info"><div class="product-cat">LED Lighting</div><div class="product-name">LED Bulbs — 9W to 70W</div><div class="product-desc">High-lumen, polycarbonate body, wide voltage range. Stable light even in low voltage. 50,000 hr life.</div><div class="product-meta"><div class="product-price">&#8377;32 <span>/ 9W onwards</span></div><div class="product-badge">1-2 Yr Warranty</div></div></div></div><div class="product-card"><img class="product-img" src="https://drive.google.com/thumbnail?id=1Xf2ALgdHncJQhmeXv_ZiMcTJZQJcYEua&sz=w600" alt="Sockets"><div class="product-info"><div class="product-cat">Modular Range</div><div class="product-name">Multi-Pin Sockets</div><div class="product-desc">6A 2-pin, 10A 2-pin, 6A 5-pin, 10A 5-pin & 16A multi socket. Strong contacts, complaint-free.</div><div class="product-meta"><div class="product-price">&#8377;10.5 <span>/ Indicator to &#8377;38</span></div><div class="product-badge">1 Yr Warranty</div></div></div></div><div class="product-card"><img class="product-img" src="https://drive.google.com/thumbnail?id=1hgL76V2WOwp03ApqbAq470NZzLtLFtyh&sz=w600" alt="Switches"><div class="product-info"><div class="product-cat">Modular Switches</div><div class="product-name">Modular Control Switches</div><div class="product-desc">6A 1-Way, 6A 2-Way, 10A, 16A switches. Bell push, indicators. Heavy duty, fast moving.</div><div class="product-meta"><div class="product-price">&#8377;11 <span>/ 6A 1-Way</span></div><div class="product-badge">1 Yr Warranty</div></div></div></div><div class="product-card"><img class="product-img" src="https://drive.google.com/thumbnail?id=1x1nQDpUcT9fYw-avRNkKPDF6hhil2RGw&sz=w600" alt="Holders"><div class="product-info"><div class="product-cat">Lamp Holders</div><div class="product-name">Decorative Batten Holders</div><div class="product-desc">Fancy batten holders, multi-holders. Stylish look, strong grip. Perfect for tent house, shops & homes.</div><div class="product-meta"><div class="product-price">&#8377;9 <span>/ Multi Holder</span></div><div class="product-badge">1 Yr Warranty</div></div></div></div><div class="product-card"><img class="product-img" src="https://drive.google.com/thumbnail?id=1vTCz9gSJU9xWDVMfaA16yJ-Cd93IBq5n&sz=w600" alt="Indicator"><div class="product-info"><div class="product-cat">Accessories</div><div class="product-name">Plug Tops & Indicators</div><div class="product-desc">6A 3-pin Royal, 2-pin Anchor & Bell plug tops. REO indicators. High quantity counter items.</div><div class="product-meta"><div class="product-price">&#8377;6 <span>/ 2-pin Bell</span></div><div class="product-badge">1 Yr Warranty</div></div></div></div><div class="product-card"><img class="product-img" src="https://drive.google.com/thumbnail?id=1onT8aLjIEIPbR4q6AJXSSB5rMceyBqBJ&sz=w600" alt="AC-DC Inverter Bulb"><div class="product-info"><div class="product-cat">Inverter Bulbs</div><div class="product-name">12W AC-DC Inverter Bulb</div><div class="product-desc">Works on power cut. 12hr backup (12W), 4hr backup (15W). Premium segment, repeat orders guaranteed.</div><div class="product-meta"><div class="product-price">&#8377;225 <span>/ 12W piece</span></div><div class="product-badge">1 Yr Warranty</div></div></div></div></div></div></section><section class="section" id="why"><div class="container"><div class="section-header"><div class="section-label">Why Choose Us</div><h2 class="section-title">BIHAR'S MOST <span>TRUSTED</span> WHOLESALE</h2><p class="section-sub">We don't just sell — we grow with you. Better margins, faster delivery, and real support.</p></div><div class="features-grid"><div class="feature-card"><div class="feature-icon">&#9889;</div><div class="feature-title">18-22% Retailer Margins</div><div class="feature-desc">Industry gives 12-15%. We give you 18-22% gross margin so your shop earns more on every piece.</div></div><div class="feature-card"><div class="feature-icon">&#128666;</div><div class="feature-title">Same-Day Delivery</div><div class="feature-desc">Orders before 2 PM get same-day delivery within 25 km. Next-day up to 100 km. 99% on-time.</div></div><div class="feature-card"><div class="feature-icon">&#127775;</div><div class="feature-title">1-2 Year Warranty</div><div class="feature-desc">70% of our products carry manufacturer warranty. No tension for you or your customer on returns.</div></div><div class="feature-card"><div class="feature-icon">&#128179;</div><div class="feature-title">Credit Facility</div><div class="feature-desc">New customers: COD up to &#8377;25,000 credit. Established retailers: 30-45 day credit terms available.</div></div></div></div></section><section class="section bg-dark2"><div class="container"><div class="why-grid"><div class="why-list"><div class="section-label">Our Advantage</div><h2 class="section-title">WHY RETAILERS<br><span>TRUST ELECSTRIX</span></h2><div class="why-item"><div class="why-num">01</div><div class="why-text"><h4>Direct From Source — No Middleman</h4><p>We source directly from 8+ manufacturers like Chander, AK, KD Electricals, Avantika Bhagwati Lighting. 15-20% cost advantage through bulk buying.</p></div></div><div class="why-item"><div class="why-num">02</div><div class="why-text"><h4>Helpline 8AM–8PM + WhatsApp Support</h4><p>Dedicated helpline and WhatsApp support. 24-hour issue resolution guarantee. Real-time order updates.</p></div></div><div class="why-item"><div class="why-num">03</div><div class="why-text"><h4>100% Authentic Products</h4><p>Only authorized manufacturer stock. Batch tracking, warranty support, 30-day return/exchange. Less than 0.1% defect rate.</p></div></div><div class="why-item"><div class="why-num">04</div><div class="why-text"><h4>Payment Options — Cash, UPI, NEFT</h4><p>Multiple secure payment modes. Instant confirmation, auto invoice, real-time payment tracking. COD available for new partners.</p></div></div></div><div class="why-img"><img src="https://drive.google.com/thumbnail?id=1h3y2_sNvlRLR0YqiSAM0bB7NYXiBIpzr&sz=w800" alt="Elecstrix Wholesale"></div></div></div></section><section class="cta-section"><div class="container"><h2>READY TO STOCK YOUR SHOP?</h2><p>Join 50+ retailers already growing with Elecstrix. Get wholesale rates, warranty products & fast delivery across Bihar.</p><div class="cta-btns"><a href="https://wa.me/918826257541?text=Hi%20Elecstrix,%20I%20want%20to%20place%20a%20wholesale%20order" class="btn-white" target="_blank">&#128222; WhatsApp Us Now</a><a href="tel:+918826257541" class="btn-outline-white">Call +91 88262 57541</a></div></div></section><section class="section" id="about"><div class="container"><div class="about-grid"><div class="about-img-wrap"><img src="https://drive.google.com/thumbnail?id=1uL3LlOqOnLMLi8zgj8Or2eUdvJ9JzQCb&sz=w800" alt="About Elecstrix"><div class="about-stats-overlay"><div class="about-stat"><div class="num">8+</div><div class="lbl">Manufacturers</div></div><div class="about-stat"><div class="num">150+</div><div class="lbl">Product SKUs</div></div><div class="about-stat"><div class="num">25km</div><div class="lbl">Same-Day Zone</div></div><div class="about-stat"><div class="num">2025</div><div class="lbl">Founded</div></div></div></div><div class="about-content"><div class="section-label">About Us</div><h2 class="section-title">ELECSTRIX — <span>POWERING BIHAR'S</span> GROWTH</h2><p class="section-sub">Elecstrix Wholesale is a pioneering distribution company strategically positioned in Pupri, Sitamarhi — serving Bihar's rapidly growing electrical market. We act as the vital bridge between manufacturers and shops, ensuring steady, reliable, and cost-effective supply of electrical goods.</p><div class="about-tags"><span class="tag">GST Compliant</span><span class="tag">MSME Registered</span><span class="tag">8+ Manufacturers</span><span class="tag">Pupri, Sitamarhi</span><span class="tag">Pan-Bihar Delivery</span><span class="tag">WhatsApp Ordering</span></div><a href="https://wa.me/918826257541" class="btn-primary" target="_blank">&#128222; Become a Partner</a></div></div></div></section><section class="contact-section" id="contact"><div class="container"><div class="contact-grid"><div class="contact-info"><div class="section-label">Get In Touch</div><h3>PLACE YOUR <span style="color:var(--orange)">WHOLESALE ORDER</span></h3><br><div class="contact-detail"><div class="contact-icon">&#128222;</div><div class="contact-text"><div class="label">Phone / WhatsApp</div><div class="value"><a href="tel:+918826257541" style="color:#fff">+91 88262 57541</a></div><div class="value"><a href="tel:+918826257542" style="color:#888">+91 88262 57542</a></div></div></div><div class="contact-detail"><div class="contact-icon">&#128205;</div><div class="contact-text"><div class="label">Address</div><div class="value">Near Shiv Mandir, Pupri</div><div class="value" style="color:#888">Sitamarhi, Bihar — 843320</div></div></div><div class="contact-detail"><div class="contact-icon">&#9993;</div><div class="contact-text"><div class="label">Email</div><div class="value"><a href="mailto:elecstrix.india@gmail.com" style="color:#fff">elecstrix.india@gmail.com</a></div></div></div><div class="contact-detail"><div class="contact-icon">&#127758;</div><div class="contact-text"><div class="label">Website</div><div class="value"><a href="http://www.elecstrix.in" style="color:var(--orange)" target="_blank">www.elecstrix.in</a></div></div></div><div class="contact-detail"><div class="contact-icon">&#128336;</div><div class="contact-text"><div class="label">Working Hours</div><div class="value">Mon–Sat: 8:00 AM – 8:00 PM</div></div></div></div><div class="contact-form"><h4 style="font-size:18px;font-weight:700;margin-bottom:24px">Send Wholesale Inquiry</h4><div class="form-row"><div class="form-group"><label>Your Name</label><input type="text" placeholder="Shop owner name"></div><div class="form-group"><label>Phone Number</label><input type="tel" placeholder="+91 XXXXX XXXXX"></div></div><div class="form-group"><label>Business Type</label><select><option>Retailer / Shop</option><option>Electrician</option><option>Contractor</option><option>Event Decorator</option><option>Other</option></select></div><div class="form-group"><label>Your Location</label><input type="text" placeholder="District, Bihar"></div><div class="form-group"><label>Products Needed</label><textarea placeholder="LED Bulbs, Switches, Sockets... (mention quantities if known)"></textarea></div><a href="#" class="btn-primary" style="width:100%;justify-content:center;display:flex" onclick="var n=this.previousElementSibling.previousElementSibling.previousElementSibling.previousElementSibling.querySelector('input').value;window.open('https://wa.me/918826257541?text=Wholesale+Inquiry+from+'+n,'_blank');return false">&#128232; Send via WhatsApp</a></div></div></div></section><footer><div class="container"><div class="footer-grid"><div class="footer-brand"><div class="logo"><div class="logo-icon">E</div><div class="logo-text">ELEC<span style="color:var(--orange)">STRIX</span></div></div><p style="margin-top:14px">Bihar's trusted wholesale electrical partner. Powering shops, electricians & contractors with quality products and reliable service since 2025.</p></div><div class="footer-col"><h4>Products</h4><ul><li><a href="#products">LED Bulbs 9W–70W</a></li><li><a href="#products">AC-DC Inverter Bulbs</a></li><li><a href="#products">Modular Switches</a></li><li><a href="#products">Multi-Pin Sockets</a></li><li><a href="#products">Lamp Holders</a></li><li><a href="#products">Plug Tops</a></li></ul></div><div class="footer-col"><h4>Company</h4><ul><li><a href="#about">About Elecstrix</a></li><li><a href="#why">Why Choose Us</a></li><li><a href="#contact">Become a Partner</a></li><li><a href="#contact">Wholesale Inquiry</a></li></ul></div><div class="footer-col"><h4>Contact</h4><ul><li><a href="tel:+918826257541">+91 88262 57541</a></li><li><a href="tel:+918826257542">+91 88262 57542</a></li><li><a href="mailto:elecstrix.india@gmail.com">elecstrix.india@gmail.com</a></li><li><a href="#">Pupri, Sitamarhi, Bihar</a></li><li><a href="http://www.elecstrix.in" target="_blank">www.elecstrix.in</a></li></ul></div></div><div class="footer-bottom"><p>&copy; 2025 Elecstrix Wholesale. All Rights Reserved. GST Compliant | MSME Registered</p><p style="color:var(--orange)">Sahi Daam, Badiya Samaan — Direct To Shop!</p></div></div></footer><a href="https://wa.me/918826257541?text=Hi%20Elecstrix,%20I%20want%20wholesale%20rates" class="wa-btn" target="_blank" title="WhatsApp Elecstrix">&#128172;</a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Elecstrix Wholesale Electricals | LED Bulbs, Switches & Accessories</title>
+  <meta name="description" content="Elecstrix Wholesale Electricals supplies LED bulbs, AC-DC bulbs, dome lights, switches, sockets, holders and electrical accessories for retailers and electricians in Bihar." />
+  <meta name="theme-color" content="#f26419" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root{
+      --orange:#f26419;
+      --orange-2:#ff7a2f;
+      --dark:#0d0f10;
+      --dark-2:#15181a;
+      --dark-3:#1d2124;
+      --white:#f7f5f1;
+      --white-2:#ffffff;
+      --offwhite:#f2eee8;
+      --text:#f7f5f1;
+      --muted:#b8c0c5;
+      --muted-2:#6e767c;
+      --text-dark:#17191b;
+      --border:rgba(255,255,255,.10);
+      --border-dark:rgba(0,0,0,.08);
+      --green:#25D366;
+      --radius-sm:12px;
+      --radius-md:20px;
+      --radius-lg:32px;
+      --radius-full:999px;
+      --shadow:0 20px 60px rgba(0,0,0,.28);
+      --container:min(1180px, calc(100vw - 32px));
+    }
+
+    *{margin:0;padding:0;box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      font-family:'DM Sans',sans-serif;
+      background:var(--dark);
+      color:var(--text);
+      overflow-x:hidden;
+      line-height:1.6;
+    }
+    img{display:block;max-width:100%;height:auto}
+    a{text-decoration:none;color:inherit}
+    button,input,textarea,select{font:inherit}
+    h1,h2,h3,h4{
+      font-family:'Manrope',sans-serif;
+      line-height:1.06;
+      letter-spacing:-0.02em;
+    }
+
+    .container{width:var(--container);margin:0 auto}
+    .skip-link{
+      position:absolute;left:-999px;top:0;background:var(--orange);color:#fff;
+      padding:12px 16px;z-index:9999;border-radius:10px
+    }
+    .skip-link:focus{left:12px;top:12px}
+
+    nav{
+      position:fixed;top:0;left:0;right:0;z-index:999;
+      background:rgba(13,15,16,.88);
+      backdrop-filter:blur(18px);
+      border-bottom:1px solid rgba(242,100,25,.14);
+    }
+    .nav-inner{
+      min-height:76px;
+      display:flex;align-items:center;justify-content:space-between;gap:20px
+    }
+    .logo{
+      display:flex;align-items:center;gap:12px
+    }
+    .logo-icon{
+      width:42px;height:42px;border-radius:12px;
+      background:linear-gradient(135deg,var(--orange),#d84c08);
+      display:grid;place-items:center;
+      box-shadow:0 0 24px rgba(242,100,25,.26)
+    }
+    .logo-icon svg{width:22px;height:22px;fill:#fff}
+    .logo-text{
+      display:flex;flex-direction:column;line-height:1
+    }
+    .logo-text strong{
+      font-family:'Manrope',sans-serif;
+      font-size:18px;font-weight:800;letter-spacing:.08em
+    }
+    .logo-text span{
+      font-size:11px;color:var(--muted);margin-top:4px;letter-spacing:.08em;text-transform:uppercase
+    }
+    .nav-links{
+      display:flex;gap:28px;list-style:none
+    }
+    .nav-links a{
+      font-size:14px;color:var(--muted);transition:.2s ease
+    }
+    .nav-links a:hover{color:#fff}
+    .nav-right{
+      display:flex;align-items:center;gap:12px
+    }
+    .btn{
+      display:inline-flex;align-items:center;justify-content:center;gap:8px;
+      min-height:46px;padding:0 18px;border-radius:999px;font-weight:700;
+      transition:.2s ease;border:1px solid transparent;cursor:pointer
+    }
+    .btn-primary{
+      background:var(--orange);color:#fff
+    }
+    .btn-primary:hover{
+      background:var(--orange-2);transform:translateY(-1px)
+    }
+    .btn-outline{
+      background:transparent;color:#fff;border-color:rgba(255,255,255,.16)
+    }
+    .btn-outline:hover{
+      background:rgba(255,255,255,.06);border-color:rgba(255,255,255,.24)
+    }
+    .btn-whatsapp{
+      background:var(--green);color:#fff
+    }
+    .btn-whatsapp:hover{
+      background:#1db954;transform:translateY(-1px)
+    }
+    .menu-btn{
+      display:none;width:44px;height:44px;border-radius:999px;
+      border:1px solid rgba(255,255,255,.14);background:transparent;color:#fff;font-size:18px
+    }
+
+    .hero{
+      position:relative;
+      min-height:100vh;
+      display:flex;align-items:center;
+      padding:120px 0 72px;
+      overflow:hidden;
+      background:
+        radial-gradient(circle at 75% 30%, rgba(242,100,25,.18), transparent 24%),
+        radial-gradient(circle at 18% 78%, rgba(242,100,25,.08), transparent 22%),
+        var(--dark);
+    }
+    .hero-bg{
+      position:absolute;inset:0;
+      background:url('https://drive.google.com/thumbnail?id=1uL3LlOqOnLMLi8zgj8Or2eUdvJ9JzQCb&sz=w1600') center/cover no-repeat;
+      opacity:.22;
+      transform:scale(1.04);
+    }
+    .hero-overlay{
+      position:absolute;inset:0;
+      background:linear-gradient(100deg, rgba(13,15,16,.94) 0%, rgba(13,15,16,.80) 52%, rgba(13,15,16,.55) 100%);
+    }
+    .hero-content{
+      position:relative;z-index:2;
+      display:grid;grid-template-columns:1.04fr .96fr;gap:52px;align-items:center
+    }
+    .eyebrow{
+      display:inline-flex;align-items:center;gap:10px;
+      padding:8px 14px;border-radius:999px;
+      background:rgba(242,100,25,.10);
+      border:1px solid rgba(242,100,25,.26);
+      color:var(--orange-2);
+      font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase
+    }
+    .eyebrow::before{
+      content:"";width:7px;height:7px;border-radius:50%;background:var(--orange-2)
+    }
+    .hero h1{
+      font-size:clamp(44px, 7vw, 92px);
+      max-width:10ch;
+      margin:18px 0 16px;
+    }
+    .hero h1 span{color:var(--orange-2)}
+    .hero p{
+      font-size:clamp(17px, 2vw, 22px);
+      color:var(--muted);
+      max-width:58ch;
+      margin-bottom:28px
+    }
+    .hero-actions{
+      display:flex;flex-wrap:wrap;gap:12px;margin-bottom:30px
+    }
+    .hero-stats{
+      display:grid;grid-template-columns:repeat(3,1fr);gap:12px
+    }
+    .stat{
+      padding:18px 18px 16px;
+      border-radius:20px;
+      background:rgba(255,255,255,.04);
+      border:1px solid rgba(255,255,255,.08);
+      backdrop-filter:blur(10px)
+    }
+    .stat strong{
+      display:block;font-family:'Manrope',sans-serif;
+      font-size:30px;color:var(--orange-2);font-weight:800;line-height:1
+    }
+    .stat span{
+      display:block;margin-top:8px;color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.06em
+    }
+
+    .hero-card{
+      border-radius:28px;
+      overflow:hidden;
+      border:1px solid rgba(255,255,255,.10);
+      background:linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.03));
+      box-shadow:var(--shadow)
+    }
+    .hero-card-top{
+      display:flex;justify-content:space-between;align-items:center;
+      padding:18px 20px;border-bottom:1px solid rgba(255,255,255,.08)
+    }
+    .hero-card-top span{
+      font-size:12px;color:var(--muted);font-weight:700;letter-spacing:.08em;text-transform:uppercase
+    }
+    .live-dot{
+      width:10px;height:10px;border-radius:50%;background:var(--orange-2);
+      box-shadow:0 0 14px rgba(242,100,25,.65)
+    }
+    .hero-card-body{padding:18px}
+    .mini-grid{
+      display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:12px
+    }
+    .mini-card{
+      padding:16px;border-radius:18px;background:var(--dark-3);border:1px solid rgba(255,255,255,.08)
+    }
+    .mini-card strong{
+      display:block;font-family:'Manrope',sans-serif;font-size:28px;font-weight:800;line-height:1.05
+    }
+    .mini-card span{
+      display:block;margin-top:6px;font-size:13px;color:var(--muted)
+    }
+    .mini-badge{
+      display:inline-flex;margin-top:10px;padding:5px 10px;border-radius:999px;
+      background:rgba(37,211,102,.10);border:1px solid rgba(37,211,102,.24);
+      color:#25D366;font-size:11px;font-weight:800;letter-spacing:.05em;text-transform:uppercase
+    }
+    .price-bar{
+      display:flex;justify-content:space-between;align-items:center;gap:16px;
+      padding:14px 16px;border-radius:16px;
+      background:rgba(242,100,25,.10);border:1px solid rgba(242,100,25,.18)
+    }
+    .price-bar small{
+      color:var(--muted);font-size:12px
+    }
+    .price-bar strong{
+      color:var(--orange-2);font-size:14px;font-family:'Manrope',sans-serif
+    }
+
+    .marquee{
+      overflow:hidden;
+      border-top:1px solid rgba(255,255,255,.08);
+      border-bottom:1px solid rgba(255,255,255,.08);
+      background:var(--dark-2)
+    }
+    .marquee-track{
+      display:flex;gap:36px;padding:14px 0;
+      width:max-content;
+      animation:marquee 22s linear infinite
+    }
+    @keyframes marquee{
+      from{transform:translateX(0)}
+      to{transform:translateX(-50%)}
+    }
+    .marquee-item{
+      display:flex;align-items:center;gap:10px;
+      color:var(--muted);font-size:14px;font-weight:700;white-space:nowrap
+    }
+    .marquee-item::before{
+      content:"";width:6px;height:6px;border-radius:50%;background:var(--orange-2)
+    }
+
+    section{padding:88px 0}
+    .section-label{
+      display:inline-flex;padding:8px 14px;border-radius:999px;
+      background:rgba(242,100,25,.10);
+      border:1px solid rgba(242,100,25,.20);
+      color:var(--orange-2);
+      font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;
+      margin-bottom:14px
+    }
+    .section-head{
+      font-size:clamp(32px, 4vw, 56px);
+      max-width:14ch;
+      margin-bottom:12px
+    }
+    .section-sub{
+      max-width:62ch;
+      color:var(--muted);
+      margin-bottom:32px;
+      font-size:18px
+    }
+
+    .products{
+      background:var(--dark-2)
+    }
+    .product-grid{
+      display:grid;grid-template-columns:repeat(3,1fr);gap:16px
+    }
+    .product-card{
+      background:var(--dark-3);
+      border:1px solid rgba(255,255,255,.08);
+      border-radius:28px;
+      overflow:hidden;
+      transition:.2s ease
+    }
+    .product-card:hover{
+      transform:translateY(-4px);
+      border-color:rgba(242,100,25,.30)
+    }
+    .pc-top{
+      display:flex;justify-content:space-between;align-items:flex-start;
+      padding:20px 20px 16px
+    }
+    .pc-watt{
+      font-family:'Manrope',sans-serif;
+      font-size:34px;font-weight:800;line-height:1
+    }
+    .pc-type{
+      padding:6px 10px;border-radius:999px;background:rgba(242,100,25,.10);
+      color:var(--orange-2);font-size:11px;font-weight:800;letter-spacing:.05em;text-transform:uppercase
+    }
+    .pc-divider{height:1px;background:rgba(255,255,255,.08)}
+    .pc-body{padding:16px 20px 18px}
+    .pc-body h3{font-size:22px;margin-bottom:8px}
+    .pc-body p{color:var(--muted);font-size:15px}
+    .pc-bottom{
+      display:flex;justify-content:space-between;align-items:center;gap:12px;
+      padding:14px 20px;background:rgba(255,255,255,.02);border-top:1px solid rgba(255,255,255,.06)
+    }
+    .pc-bottom span{font-size:12px;color:var(--muted)}
+    .pc-bottom strong{font-size:13px;color:var(--orange-2)}
+
+    .why{
+      background:var(--dark-3)
+    }
+    .why-grid{
+      display:grid;grid-template-columns:1fr 1fr;gap:16px
+    }
+    .why-card{
+      background:var(--dark-2);
+      border:1px solid rgba(255,255,255,.08);
+      border-radius:28px;
+      padding:24px
+    }
+    .why-card.large{
+      grid-column:span 2;
+      display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:center
+    }
+    .why-num{
+      font-family:'Manrope',sans-serif;
+      font-size:54px;font-weight:800;line-height:1;
+      color:rgba(255,122,47,.55);
+      margin-bottom:10px
+    }
+    .why-card h3{font-size:26px;margin-bottom:10px}
+    .why-card p{color:var(--muted)}
+    .info-box{
+      background:linear-gradient(135deg, var(--dark), #24292c);
+      border:1px solid rgba(255,255,255,.08);
+      border-radius:22px;
+      padding:22px
+    }
+    .info-box strong{
+      display:block;font-family:'Manrope',sans-serif;font-size:24px;margin-bottom:14px
+    }
+    .bullet-list{
+      list-style:none;display:grid;gap:10px
+    }
+    .bullet-list li{
+      display:flex;align-items:flex-start;gap:10px;color:var(--muted)
+    }
+    .bullet-list li::before{
+      content:"";width:8px;height:8px;border-radius:50%;background:var(--orange-2);margin-top:9px;flex-shrink:0
+    }
+
+    .cta-band{
+      background:var(--orange);
+      color:#111;
+      padding:72px 0
+    }
+    .cta-inner{
+      display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap
+    }
+    .cta-inner h2{
+      font-size:clamp(30px,4vw,54px);
+      max-width:14ch
+    }
+    .cta-inner p{
+      color:rgba(17,17,17,.70);
+      max-width:62ch;
+      margin-top:10px
+    }
+    .cta-actions{
+      display:flex;gap:12px;flex-wrap:wrap
+    }
+    .btn-dark{
+      background:#111;color:#fff
+    }
+    .btn-dark:hover{background:#222}
+    .btn-light-dark{
+      background:rgba(0,0,0,.08);color:#111;border:1px solid rgba(0,0,0,.12)
+    }
+    .btn-light-dark:hover{background:rgba(0,0,0,.12)}
+
+    .about{
+      background:var(--offwhite);
+      color:var(--text-dark)
+    }
+    .about .section-head{color:#111}
+    .about .section-sub{color:#5f666c}
+    .about-grid{
+      display:grid;grid-template-columns:1fr 1fr;gap:20px;align-items:start
+    }
+    .about-copy p{
+      color:#555d63;
+      margin-bottom:16px;
+      font-size:17px
+    }
+    .about-card{
+      background:#fff;
+      border:1px solid rgba(0,0,0,.06);
+      border-radius:28px;
+      padding:24px;
+      box-shadow:0 12px 34px rgba(0,0,0,.06)
+    }
+    .small-tag{
+      display:inline-flex;padding:6px 10px;border-radius:999px;
+      background:rgba(242,100,25,.10);color:var(--orange);font-size:11px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;margin-bottom:12px
+    }
+    .about-card h3{
+      font-size:24px;color:#111;margin-bottom:8px
+    }
+    .about-card p{
+      color:#61676d
+    }
+
+    .contact{
+      background:var(--dark)
+    }
+    .contact-grid{
+      display:grid;grid-template-columns:.92fr 1.08fr;gap:18px
+    }
+    .contact-panel,
+    .form-panel{
+      background:var(--dark-2);
+      border:1px solid rgba(255,255,255,.08);
+      border-radius:30px;
+      padding:24px
+    }
+    .contact-panel h3,
+    .form-panel h3{
+      font-size:28px;margin-bottom:16px
+    }
+    .contact-items{
+      display:grid;gap:12px
+    }
+    .contact-item{
+      display:flex;gap:12px;align-items:flex-start;
+      padding:14px;border-radius:18px;
+      background:var(--dark-3);border:1px solid rgba(255,255,255,.06)
+    }
+    .contact-icon{
+      width:42px;height:42px;border-radius:12px;
+      display:grid;place-items:center;
+      background:rgba(242,100,25,.10);
+      color:var(--orange-2);
+      flex-shrink:0
+    }
+    .contact-item small{
+      display:block;color:var(--muted-2);text-transform:uppercase;letter-spacing:.06em;font-size:11px;margin-bottom:2px
+    }
+    .contact-item strong{
+      color:#fff;font-size:15px
+    }
+
+    .form-grid{
+      display:grid;grid-template-columns:1fr 1fr;gap:12px
+    }
+    .field{
+      display:flex;flex-direction:column;gap:6px;margin-bottom:12px
+    }
+    .field label{
+      font-size:12px;font-weight:700;color:var(--muted);letter-spacing:.04em
+    }
+    .field input,
+    .field select,
+    .field textarea{
+      width:100%;
+      background:var(--dark-3);
+      color:#fff;
+      border:1px solid rgba(255,255,255,.14);
+      border-radius:14px;
+      padding:13px 14px;
+      outline:none;
+      transition:.2s ease
+    }
+    .field input:focus,
+    .field select:focus,
+    .field textarea:focus{
+      border-color:var(--orange)
+    }
+    .field textarea{
+      min-height:120px;resize:vertical
+    }
+    .full{grid-column:1 / -1}
+    .success{
+      display:none;
+      margin-top:14px;
+      padding:14px 16px;
+      border-radius:14px;
+      background:rgba(37,211,102,.10);
+      border:1px solid rgba(37,211,102,.26);
+      color:#25D366;
+      font-weight:700
+    }
+
+    footer{
+      background:#0b0d0e;
+      border-top:1px solid rgba(255,255,255,.08);
+      padding:44px 0 28px
+    }
+    .footer-top{
+      display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:24px;
+      padding-bottom:24px;border-bottom:1px solid rgba(255,255,255,.08)
+    }
+    .footer-col p{
+      color:var(--muted);margin-top:12px;max-width:40ch
+    }
+    .footer-col h4{
+      font-family:'Manrope',sans-serif;
+      font-size:13px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin-bottom:12px
+    }
+    .footer-col ul{
+      list-style:none;display:grid;gap:10px
+    }
+    .footer-col ul a{
+      color:var(--muted);font-size:14px
+    }
+    .footer-col ul a:hover{
+      color:var(--orange-2)
+    }
+    .footer-bottom{
+      display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
+      padding-top:18px
+    }
+    .footer-bottom span{
+      color:var(--muted-2);font-size:12px
+    }
+
+    @media (max-width: 1024px){
+      .hero-content,
+      .about-grid,
+      .contact-grid,
+      .why-card.large{
+        grid-template-columns:1fr;
+      }
+      .product-grid{
+        grid-template-columns:1fr 1fr;
+      }
+      .why-grid{
+        grid-template-columns:1fr;
+      }
+      .why-card.large{
+        grid-column:span 1;
+      }
+      .footer-top{
+        grid-template-columns:1fr 1fr;
+      }
+    }
+
+    @media (max-width: 768px){
+      .nav-links,.hide-mobile{display:none}
+      .menu-btn{display:grid;place-items:center}
+      .hero-card{display:none}
+      .hero-stats,
+      .product-grid,
+      .form-grid,
+      .footer-top{
+        grid-template-columns:1fr;
+      }
+      .cta-inner{
+        align-items:flex-start;
+      }
+      .hero{
+        min-height:auto;
+        padding:112px 0 56px;
+      }
+      .section-sub{font-size:16px}
+    }
+
+    @media (max-width: 480px){
+      .hero h1{max-width:100%}
+      .hero-actions .btn,
+      .cta-actions .btn{
+        width:100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to content</a>
+
+  <nav>
+    <div class="container nav-inner">
+      <a href="#" class="logo" aria-label="Elecstrix Home">
+        <div class="logo-icon">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M13.5 2L6 13H11L10.5 22L18 10.5H13L13.5 2Z"></path>
+          </svg>
+        </div>
+        <div class="logo-text">
+          <strong>ELECSTRIX</strong>
+          <span>Wholesale Electricals</span>
+        </div>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#products">Products</a></li>
+        <li><a href="#why">Why Us</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="nav-right">
+        <a href="#contact" class="btn btn-primary hide-mobile">Get Quote</a>
+        <button class="menu-btn" type="button" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})" aria-label="Open contact section">☰</button>
+      </div>
+    </div>
+  </nav>
+
+  <main id="main">
+    <section class="hero">
+      <div class="hero-bg"></div>
+      <div class="hero-overlay"></div>
+
+      <div class="container hero-content">
+        <div>
+          <div class="eyebrow">Bihar Wholesale Supplier</div>
+          <h1>Power your <span>electrical business</span> with Elecstrix.</h1>
+          <p>
+            Premium LED bulbs, AC-DC bulbs, switches, sockets, holders and accessories at wholesale rates for retailers, electricians and shop owners across Bihar.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">Get Wholesale Quote</a>
+            <a href="https://wa.me/91XXXXXXXXXX" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp">WhatsApp</a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat">
+              <strong>50+</strong>
+              <span>Product Types</span>
+            </div>
+            <div class="stat">
+              <strong>Bihar</strong>
+              <span>Wide Coverage</span>
+            </div>
+            <div class="stat">
+              <strong>Bulk</strong>
+              <span>Retailer Ready</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-card" aria-hidden="true">
+          <div class="hero-card-top">
+            <span>Current Stock</span>
+            <div class="live-dot"></div>
+          </div>
+          <div class="hero-card-body">
+            <div class="mini-grid">
+              <div class="mini-card">
+                <strong>9W</strong>
+                <span>LED Bulb</span>
+                <div class="mini-badge">In Stock</div>
+              </div>
+              <div class="mini-card">
+                <strong>12W</strong>
+                <span>AC-DC Bulb</span>
+                <div class="mini-badge">In Stock</div>
+              </div>
+              <div class="mini-card">
+                <strong>15W</strong>
+                <span>LED Bulb</span>
+                <div class="mini-badge">In Stock</div>
+              </div>
+              <div class="mini-card">
+                <strong>40W</strong>
+                <span>Dome Bulb</span>
+                <div class="mini-badge">In Stock</div>
+              </div>
+            </div>
+
+            <div class="price-bar">
+              <small>Updated wholesale rates available</small>
+              <strong>WhatsApp for full price list →</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <div class="marquee-item">LED Bulbs</div>
+        <div class="marquee-item">AC-DC Inverter Bulbs</div>
+        <div class="marquee-item">Dome Bulbs</div>
+        <div class="marquee-item">T5 Tube Lights</div>
+        <div class="marquee-item">Switches & Sockets</div>
+        <div class="marquee-item">Holders & Plug Tops</div>
+        <div class="marquee-item">Wholesale Rates</div>
+        <div class="marquee-item">Bajpatti · Sitamarhi</div>
+
+        <div class="marquee-item">LED Bulbs</div>
+        <div class="marquee-item">AC-DC Inverter Bulbs</div>
+        <div class="marquee-item">Dome Bulbs</div>
+        <div class="marquee-item">T5 Tube Lights</div>
+        <div class="marquee-item">Switches & Sockets</div>
+        <div class="marquee-item">Holders & Plug Tops</div>
+        <div class="marquee-item">Wholesale Rates</div>
+        <div class="marquee-item">Bajpatti · Sitamarhi</div>
+      </div>
+    </div>
+
+    <section class="products" id="products">
+      <div class="container">
+        <div class="section-label">Product Range</div>
+        <h2 class="section-head">Everything a retailer needs — in one place.</h2>
+        <p class="section-sub">
+          From LED bulbs to AC-DC inverter bulbs, dome lights, tube lights, switches and accessories, Elecstrix keeps stock aligned with real Bihar market demand.
+        </p>
+
+        <div class="product-grid">
+          <article class="product-card">
+            <div class="pc-top">
+              <div class="pc-watt">9W</div>
+              <div class="pc-type">LED Bulb</div>
+            </div>
+            <div class="pc-divider"></div>
+            <div class="pc-body">
+              <h3>Standard LED Bulb</h3>
+              <p>Fast-moving everyday bulb for homes, shops and office use. Best for regular retailer demand.</p>
+            </div>
+            <div class="pc-bottom">
+              <span>Homes · Shops · Offices</span>
+              <strong>Inquire →</strong>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="pc-top">
+              <div class="pc-watt">12W</div>
+              <div class="pc-type">AC-DC</div>
+            </div>
+            <div class="pc-divider"></div>
+            <div class="pc-body">
+              <h3>AC-DC Inverter Bulb</h3>
+              <p>Strong-selling backup bulb for low-power and inverter-use areas. High demand in many Bihar markets.</p>
+            </div>
+            <div class="pc-bottom">
+              <span>Inverter Areas · Retailers</span>
+              <strong>Inquire →</strong>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="pc-top">
+              <div class="pc-watt">15W</div>
+              <div class="pc-type">LED Bulb</div>
+            </div>
+            <div class="pc-divider"></div>
+            <div class="pc-body">
+              <h3>High Bright LED Bulb</h3>
+              <p>Suitable for bigger rooms, commercial use and fast resale. Strong secondary demand item.</p>
+            </div>
+            <div class="pc-bottom">
+              <span>Rooms · Shops · Utility</span>
+              <strong>Inquire →</strong>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="pc-top">
+              <div class="pc-watt">30W</div>
+              <div class="pc-type">Dome</div>
+            </div>
+            <div class="pc-divider"></div>
+            <div class="pc-body">
+              <h3>HPF Dome Bulb</h3>
+              <p>Bright premium lighting option for showrooms, shops and semi-commercial spaces.</p>
+            </div>
+            <div class="pc-bottom">
+              <span>Showrooms · Shops</span>
+              <strong>Inquire →</strong>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="pc-top">
+              <div class="pc-watt">T5</div>
+              <div class="pc-type">Tube Light</div>
+            </div>
+            <div class="pc-divider"></div>
+            <div class="pc-body">
+              <h3>LED Tube Light</h3>
+              <p>Efficient lighting option for offices, schools, shops and old tube replacement demand.</p>
+            </div>
+            <div class="pc-bottom">
+              <span>Offices · Institutions</span>
+              <strong>Inquire →</strong>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="pc-top">
+              <div class="pc-watt" style="font-size:24px">Switch<br>Socket</div>
+              <div class="pc-type">Accessories</div>
+            </div>
+            <div class="pc-divider"></div>
+            <div class="pc-body">
+              <h3>Electrical Accessories</h3>
+              <p>Switches, sockets, holders, plug tops and daily fast-moving electrical items for shops and electricians.</p>
+            </div>
+            <div class="pc-bottom">
+              <span>Retailers · Electricians</span>
+              <strong>Inquire →</strong>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="why" id="why">
+      <div class="container">
+        <div class="section-label">Why Elecstrix</div>
+        <h2 class="section-head">Why retailers choose us over others.</h2>
+        <p class="section-sub">
+          Elecstrix is built around practical wholesale needs: fast-moving stock, local market understanding, simpler contact and better trust for repeat business.
+        </p>
+
+        <div class="why-grid">
+          <div class="why-card large">
+            <div>
+              <div class="why-num">01</div>
+              <h3>Local wholesale business with Bihar market understanding</h3>
+              <p>
+                Based near Patdaura Middle School, Bajpatti, Sitamarhi, Elecstrix focuses on the products and pricing patterns that actually move in nearby towns, markets and villages.
+              </p>
+            </div>
+
+            <div class="info-box">
+              <strong>Service coverage</strong>
+              <ul class="bullet-list">
+                <li>Bajpatti and Sitamarhi area</li>
+                <li>Sursand and nearby local markets</li>
+                <li>Retailers, electricians and tent houses</li>
+                <li>Village-to-village business support</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="why-card">
+            <div class="why-num">02</div>
+            <h3>Competitive wholesale pricing</h3>
+            <p>Bulk rates designed for retailer resale, fast movement and repeat orders instead of just one-time selling.</p>
+          </div>
+
+          <div class="why-card">
+            <div class="why-num">03</div>
+            <h3>Fast-moving product mix</h3>
+            <p>Stock focused on what local buyers actually want: 9W, 12W AC-DC, 15W, dome bulbs, tubes and accessories.</p>
+          </div>
+
+          <div class="why-card">
+            <div class="why-num">04</div>
+            <h3>Quick WhatsApp inquiry flow</h3>
+            <p>Buyers can request rates, stock and delivery details fast without complicated steps or long waiting.</p>
+          </div>
+
+          <div class="why-card">
+            <div class="why-num">05</div>
+            <h3>Professional trust and support</h3>
+            <p>Clean product presentation, real business address and wholesale-first communication help build confidence with shopkeepers.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-band">
+      <div class="container cta-inner">
+        <div>
+          <h2>Ready to stock up? Get your wholesale price list today.</h2>
+          <p>Message Elecstrix directly for current rates, bulk quantity discussion and availability details.</p>
+        </div>
+
+        <div class="cta-actions">
+          <a href="https://wa.me/91XXXXXXXXXX" target="_blank" rel="noopener noreferrer" class="btn btn-dark">WhatsApp Now</a>
+          <a href="#contact" class="btn btn-light-dark">Send Inquiry</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="container">
+        <div class="section-label">About Elecstrix</div>
+        <h2 class="section-head">A local wholesale electrical business built for Bihar.</h2>
+        <p class="section-sub">
+          Elecstrix Wholesale Electricals supplies LED bulbs, switches, sockets, holders, plug tops and electrical accessories for retailers and electricians in Bihar.
+        </p>
+
+        <div class="about-grid">
+          <div class="about-copy">
+            <p>
+              Elecstrix Wholesale Electricals is based near Patdaura Middle School, Bajpatti, Sitamarhi, Bihar 843314. The business serves local retailers, electrical shops, electricians and related buyers with practical wholesale supply.
+            </p>
+            <p>
+              The focus is simple: stock the products that sell fast, offer clear communication, and support local business relationships with better wholesale service.
+            </p>
+            <a href="#contact" class="btn btn-primary">Contact Elecstrix</a>
+          </div>
+
+          <div style="display:grid;gap:16px">
+            <div class="about-card">
+              <div class="small-tag">Business Details</div>
+              <h3>Elecstrix Wholesale Electricals</h3>
+              <p>01, Near Patdaura Middle School, Bajpatti, Sitamarhi, Bihar 843314</p>
+            </div>
+
+            <div class="about-card">
+              <div class="small-tag">Top-Selling Products</div>
+              <h3>9W, 12W AC-DC, 15W and Dome Range</h3>
+              <p>Popular wholesale categories for local resale and daily demand in nearby Bihar markets.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="section-label">Contact & Inquiry</div>
+        <h2 class="section-head">Get wholesale rates or place a bulk order.</h2>
+        <p class="section-sub">
+          Fill the form or message directly on WhatsApp for product rates, quantity discussion and delivery support.
+        </p>
+
+        <div class="contact-grid">
+          <div class="contact-panel">
+            <h3>Business contact</h3>
+
+            <div class="contact-items">
+              <div class="contact-item">
+                <div class="contact-icon">📍</div>
+                <div>
+                  <small>Address</small>
+                  <strong>01, Near Patdaura Middle School, Bajpatti, Sitamarhi, Bihar 843314</strong>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon">💬</div>
+                <div>
+                  <small>WhatsApp</small>
+                  <strong>+91 XXXXXXXXXX</strong>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon">📦</div>
+                <div>
+                  <small>Products</small>
+                  <strong>LED bulbs, AC-DC bulbs, dome lights, switches, sockets, holders and accessories</strong>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon">🗺️</div>
+                <div>
+                  <small>Serving</small>
+                  <strong>Bajpatti, Sitamarhi, Sursand and nearby Bihar areas</strong>
+                </div>
+              </div>
+            </div>
+
+            <a href="https://wa.me/91XXXXXXXXXX" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp" style="width:100%;margin-top:16px">
+              WhatsApp for Rates
+            </a>
+          </div>
+
+          <div class="form-panel">
+            <h3>Send a wholesale inquiry</h3>
+
+            <form onsubmit="handleForm(event)">
+              <div class="form-grid">
+                <div class="field">
+                  <label for="name">Your Name</label>
+                  <input id="name" type="text" placeholder="e.g. Ramesh Kumar" required>
+                </div>
+
+                <div class="field">
+                  <label for="phone">Phone Number</label>
+                  <input id="phone" type="tel" placeholder="+91 XXXXXXXXXX" required>
+                </div>
+
+                <div class="field full">
+                  <label for="type">Business Type</label>
+                  <select id="type">
+                    <option value="">Select business type</option>
+                    <option>Retailer / General Shop</option>
+                    <option>Electrician</option>
+                    <option>Wholesale Distributor</option>
+                    <option>Tent House / Events</option>
+                    <option>Other</option>
+                  </select>
+                </div>
+
+                <div class="field full">
+                  <label for="products-needed">Products Needed</label>
+                  <input id="products-needed" type="text" placeholder="e.g. 12W AC-DC bulbs, 9W bulbs, switches">
+                </div>
+
+                <div class="field full">
+                  <label for="message">Message / Quantity</label>
+                  <textarea id="message" placeholder="Tell us what you need and approximate quantity..."></textarea>
+                </div>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width:100%">Send Inquiry</button>
+            </form>
+
+            <div class="success" id="successMsg">✅ Inquiry sent! We will contact you shortly.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-col">
+          <div class="logo">
+            <div class="logo-icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M13.5 2L6 13H11L10.5 22L18 10.5H13L13.5 2Z"></path>
+              </svg>
+            </div>
+            <div class="logo-text">
+              <strong>ELECSTRIX</strong>
+              <span>Wholesale Electricals</span>
+            </div>
+          </div>
+          <p>
+            Wholesale electrical supplier for retailers, electricians and shops across Bihar with practical, fast-moving stock support.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Products</h4>
+          <ul>
+            <li><a href="#products">LED Bulbs</a></li>
+            <li><a href="#products">AC-DC Bulbs</a></li>
+            <li><a href="#products">Dome Bulbs</a></li>
+            <li><a href="#products">Tube Lights</a></li>
+            <li><a href="#products">Switches & Sockets</a></li>
+            <li><a href="#products">Holders & Accessories</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Business</h4>
+          <ul>
+            <li><a href="#why">Why Elecstrix</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Wholesale Inquiry</a></li>
+            <li><a href="https://wa.me/91XXXXXXXXXX" target="_blank" rel="noopener noreferrer">WhatsApp for Rates</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© 2026 Elecstrix Wholesale Electricals. All rights reserved.</span>
+        <span>Bajpatti · Sitamarhi · Bihar</span>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function handleForm(e){
+      e.preventDefault();
+      document.getElementById('successMsg').style.display = 'block';
+      e.target.reset();
+    }
+
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      const track = document.querySelector('.marquee-track');
+      if (track) track.style.animation = 'none';
+    }
+  </script>
+</body>
+</html>
